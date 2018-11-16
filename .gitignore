@@ -102,3 +102,6 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+/.vs/ProjectSettings.json
+/.vs/slnx.sqlite
+/.vs/FinalProject/v15
