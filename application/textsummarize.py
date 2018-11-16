@@ -1,6 +1,6 @@
 from summa.summarizer import summarize
 
 
-def summarize(text):
+def getsummary(text):
     summary = summarize(text)
     return summary
