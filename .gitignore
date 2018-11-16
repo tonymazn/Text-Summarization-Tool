@@ -105,3 +105,6 @@ venv.bak/
 /.vs/ProjectSettings.json
 /.vs/slnx.sqlite
 /.vs/FinalProject/v15
+/.vs/config/applicationhost.config
+/.vs/tasks.vs.json
+/.vs/VSWorkspaceState.json
