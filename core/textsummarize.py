@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 from summa.summarizer import summarize
 from string import punctuation
 
@@ -16,7 +18,7 @@ def sanitize(text):
     return text.translate(removechartlist)
 
 
-def getsummary(text):
+def get_summary(text):
     text = sanitize(text)
     text = replace(text)
     summary = summarize(text)

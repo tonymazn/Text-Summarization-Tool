@@ -1,7 +1,6 @@
 import unittest
 
 from summa.summarizer import summarize
-from utils import get_text_from_test_data
 
 
 class mytest(unittest.TestCase):

@@ -1,5 +1,7 @@
+# -*- coding: utf-8 -*-
+
 from flask import Flask, render_template, request
-from textsummarize import getsummary
+from core.textsummarize import get_summary
 
 app = Flask(__name__)
  
@@ -12,7 +14,7 @@ def index():
 def process():
     if request.method=='POST':
        text = request.form['text']
-       summary = getsummary(text)
+       summary = get_summary(text)
        return render_template('index.html',text=text, summary=summary)
 
 if __name__ == "__main__":

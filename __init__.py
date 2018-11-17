@@ -1,4 +1,4 @@
-import os
+# -*- coding: utf-8 -*-
 
-dirname = __path__[0]
-__path__.insert(0, os.path.join(dirname, "cs410"))
+__author__ = "Tony Ma"
+__version__ = "0.0.1"
