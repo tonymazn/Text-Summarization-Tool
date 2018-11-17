@@ -1,11 +1,10 @@
 from summa.summarizer import summarize
 from string import punctuation
 
-
-def getsummary(text):
-    text = sanitize(text)
-    summary = summarize(text)
-    return summary
+def replace(text):
+    text = text.replace("\r","")
+    text = text.replace("\n","")
+    return text
 
 def sanitize(text):
     removechartlist = {
@@ -15,4 +14,15 @@ def sanitize(text):
         ord('\r') : None
     }
     return text.translate(removechartlist)
+
+
+def getsummary(text):
+    text = sanitize(text)
+    text = replace(text)
+    summary = summarize(text)
+    summary = sanitize(summary)
+    summary = replace(summary)
+    return summary
+
+
 
