@@ -3,10 +3,10 @@
 from .preprocess import get_parser
 from sumy.summarizers.lex_rank import LexRankSummarizer
 
-def get_summary_result(text):
+def get_summary_result(text, count):
     parser = get_parser(text)
     lex_summarizer = LexRankSummarizer()
-    summary = lex_summarizer(parser.document, 2)   # return 2 sentences
+    summary = lex_summarizer(parser.document, count)  
     result = ''
     for sentence in summary:
         result = result + str(sentence)

@@ -2,8 +2,9 @@
 <title>Text Summarization Tool</title>
   <h1>Text Summarization Tool</h1>
   <form action="process" method="post">
-	<textarea rows="20" cols="100" name="text" placeholder="Enter text here...">{{ text }}</textarea>
-	<textarea rows="20" cols="100" name="summary"  placeholder="Summary here...">{{ summary }}</textarea>
-	<br>
-    <input type="submit" value="Submit">
+      <textarea rows="20" cols="100" name="text" placeholder="Enter text here...">{{ text }}</textarea>
+      <textarea rows="20" cols="100" name="summary" placeholder="Summary here...">{{ summary }}</textarea>
+      <br>
+      Number of Summary Sentences: <input type="text" name="count" value="{{ count }}" size="4"><br>
+      <input type="submit" value="Submit">
   </form>

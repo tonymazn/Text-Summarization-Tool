@@ -18,8 +18,8 @@ def sanitize(text):
     }
     return text.translate(removechartlist)
 
-def get_summary(text):
-    return get_summary_result(text)
+def get_summary(text, count):
+    return get_summary_result(text, count)
 
 
 
