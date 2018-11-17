@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 
-from summa.summarizer import summarize
+
 from string import punctuation
+from .summarizer import get_summary_result
 
 def replace(text):
     text = text.replace("\r","")
@@ -17,14 +18,8 @@ def sanitize(text):
     }
     return text.translate(removechartlist)
 
-
 def get_summary(text):
-    text = sanitize(text)
-    text = replace(text)
-    summary = summarize(text)
-    summary = sanitize(summary)
-    summary = replace(summary)
-    return summary
+    return get_summary_result(text)
 
 
 
