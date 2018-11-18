@@ -11,7 +11,7 @@ app = Flask(__name__)
  
 @app.route("/")
 def index():
-    return generate_index('', '', 4, algorithms.TextRank)
+    return generate_index('', '', 4, algorithms.TextRank.value)
 
 
 @app.route("/process", methods=['POST'])
