@@ -1,9 +1,16 @@
-import unittest
+# -*- coding: utf-8 -*-
 
+import unittest
 from summa.summarizer import summarize
 
 
 class mytest(unittest.TestCase):
+    def get_text_from_test_data(file):
+        pre_path = os.path.join(os.path.dirname(__file__), 'test_data')
+        with open(os.path.join(pre_path, file), mode='r', encoding="utf-8") as f:
+            return f.read()
+
+
     def test_summary(self):
     # Test Summary result
         text = get_text_from_test_data("example.txt")
@@ -47,6 +54,7 @@ class mytest(unittest.TestCase):
         print(generated_summary)
         print("*******************************************************************************")
         self.assertNotEqual(generated_summary, "")
+
 
 
 if __name__ == '__main__':

@@ -31,12 +31,13 @@ def get_algorithm(algorithm_name):
 def get_summary_result(text, count, algorithm_name):
     parser = get_parser(text)
     summarizer = get_algorithm(algorithm_name)
-    summary = summarizer(parser.document, count)  
+    return summarizer(parser.document, count)  
+
+def convert_to_text(summarizer):
     result = ''
-    for sentence in summary:
+    for sentence in summarizer:
         result = result + str(sentence)
         print(sentence)
     return result
-
 
     
