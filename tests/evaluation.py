@@ -49,4 +49,7 @@ def textrank_testresult():
 
 
 if __name__ == '__main__':
+    lexrank_testresult()
+    luhn_testresult()
+    las_testresult()
     textrank_testresult()

@@ -16,30 +16,9 @@ class runsystem(unittest.TestCase):
     def test_generate_las_summary(self):
         generate_summary(algorithms.LAS, "system_las")
 
-#    def test_generate_lexrank_summary():
-#       test_data_path = "C:\\CS410\\Data\\duc2004_2\\testdata\\"
-#       cluster_folder = get_dir_list(test_data_path)
-#       for dir in cluster_folder:
-#           cluster_whole_path = os.path.join(os.path.dirname(test_data_path), dir)
-#           print(cluster_whole_path)
-#           dirs = get_file_list(cluster_whole_path)
-#           summary_result = ""
-#           for file in dirs:
-#              print("read file", end='')
-#              print(file)
-#              context = read_file(cluster_whole_path, file)
-#              #print(context)
-#
-#              #change the algorithms to gernate difference result, and create
-#              #files into system folder
-#              summarizer = get_summary_result(context, 1, algorithms.LexRank)
-#              #print(summarizer)
-#              summary_result +=convert_to_text(summarizer)
-#              summary_result +=get_newline()
-#              print(summary_result)
-#              create_file("C:\\CS410\\Data\\duc2004_2\\system_lexrank", dir.upper() + ".LexRank.txt", summary_result)
     def test_generate_textrank_summary(self):
         generate_summary(algorithms.TextRank, "system_textrank")
+
 
 
 def generate_summary(algorithm, system_folder_name):
@@ -54,7 +33,7 @@ def generate_summary(algorithm, system_folder_name):
             print("read file", end='')
             print(file)
             context = read_file(cluster_whole_path, file)
-            summarizer = get_summary_result(context, 1, algorithm)
+            summarizer = get_summary_result(context, 1, algorithm.value)
             summary_result +=convert_to_text(summarizer)
             summary_result +=get_newline()
             print(summary_result)
