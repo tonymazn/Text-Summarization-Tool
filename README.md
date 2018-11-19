@@ -1,9 +1,9 @@
 CS410 Final Project - Text Summarization Tool
 -
 This tool is a Python base tool demonstrate EXTRACTIVE SUMMARIZATION by couple algorithms. Getting the tool to work is simple, download/clone the package, and go to the cs410-master folder and run the following command:
-
+```
 python setup.py install
-
+```
 System structure
 -
 
@@ -44,8 +44,9 @@ System structure
 
 Usage Examples
 -
+```
 python -m web.webserver
-
+```
 Version
 -
 0.0.1 
