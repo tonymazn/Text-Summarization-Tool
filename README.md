@@ -9,34 +9,35 @@ System structure
 
 
 
-├─ cs410-master 
-│    └─── web
-│          ├── templates
-│          │     └── index.html
-│          ├── __init__.py
-│          └── webserver.py                  # Flask entrance point
-├── core
-│     ├── __init__.py
-│     ├── algorithms.py
-│     ├── preprocess.py
-│     ├── summarizer.py                      # Main function to generate summary result by using SUMY(1)
-│     └── textsummarize.py                   # Pass summary result service for web 
-├── tests 
-│     ├───── ROUGE_result
-│     │         ├── LexRank.txt              # Lex Rank algorithm test log
-│     │         ├── LAS.txt                  # LAS algorithm test log 
-│     │         ├── Luhn.txt                 # Luhn algorithm test log 
-│     │         ├── TextRank.txt             # Text Rank algorithm test log 
-│     │         └── ROUGE measure scores.pdf # ROUGE measure scores report 
-│     ├── __init__.py
-│     ├── evaluation.py
-│     ├── runsystem.py                       # Generate summary system data
-│     ├── settting.ini 
-│     └── utils.py
-├─ README.md
-├─ requirements.txt
-├─ setup.cfg
-└─ setup.py
+    .
+    ├─ cs410-master 
+    │    └─── web
+    │          ├── templates
+    │          │     └── index.html
+    │          ├── __init__.py
+    │          └── webserver.py                  # Flask entrance point
+    ├── core
+    │     ├── __init__.py
+    │     ├── algorithms.py
+    │     ├── preprocess.py
+    │     ├── summarizer.py                      # Main function to generate summary result by using SUMY(1)
+    │     └── textsummarize.py                   # Pass summary result service for web 
+    ├── tests 
+    │     ├───── ROUGE_result
+    │     │         ├── LexRank.txt              # Lex Rank algorithm test log
+    │     │         ├── LAS.txt                  # LAS algorithm test log 
+    │     │         ├── Luhn.txt                 # Luhn algorithm test log 
+    │     │         ├── TextRank.txt             # Text Rank algorithm test log 
+    │     │         └── ROUGE measure scores.pdf # ROUGE measure scores report 
+    │     ├── __init__.py
+    │     ├── evaluation.py
+    │     ├── runsystem.py                       # Generate summary system data
+    │     ├── settting.ini 
+    │     └── utils.py
+    ├─ README.md
+    ├─ requirements.txt
+    ├─ setup.cfg
+    └─ setup.py
 
 
 
