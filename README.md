@@ -20,10 +20,10 @@ System structure
     │     ├── __init__.py
     │     ├── algorithms.py
     │     ├── preprocess.py
-    │     ├── summarizer.py                      # Main function to generate summary result by using SUMY(1)
+    │     ├── summarizer.py                      # Main function to generate summary result by using [SUMY(1)](https://pypi.org/project/sumy/)
     │     └── textsummarize.py                   # Pass summary result service for web 
     ├── tests 
-    │     ├───── ROUGE_result                    # Create measure scores by pyrouge(2)
+    │     ├───── ROUGE_result                    # Create measure scores by [pyrouge(2)](https://github.com/bheinzerling/pyrouge)
     │     │         ├── LexRank.txt              # Lex Rank algorithm test log
     │     │         ├── LAS.txt                  # LAS algorithm test log 
     │     │         ├── Luhn.txt                 # Luhn algorithm test log 
@@ -57,6 +57,6 @@ Apache License
 
 Reference
 -
-    (1) Simple library and command line utility for extracting summary from HTML pages or plain texts. The package also contains simple evaluation framework for text summaries, https://pypi.org/project/sumy/
-    (2) pyrouge is a Python wrapper for the ROUGE summarization evaluation package. Getting ROUGE to work can require quite a bit of time. pyrouge is designed to make getting ROUGE scores easier by automatically converting your summaries into a format ROUGE understands, and automatically generating the ROUGE configuration file. https://github.com/bheinzerling/pyrouge
+*  (1) Simple library and command line utility for extracting summary from HTML pages or plain texts. The package also contains simple evaluation framework for text summaries, https://pypi.org/project/sumy/
+*  (2) pyrouge is a Python wrapper for the ROUGE summarization evaluation package. Getting ROUGE to work can require quite a bit of time. pyrouge is designed to make getting ROUGE scores easier by automatically converting your summaries into a format ROUGE understands, and automatically generating the ROUGE configuration file. https://github.com/bheinzerling/pyrouge
 
