@@ -15,15 +15,15 @@ System structure
     │          ├── templates
     │          │     └── index.html
     │          ├── __init__.py
-    │          └── webserver.py                  # Flask entrance point
+    │          └── webserver.py                  # Flask(1) entrance point
     ├── core
     │     ├── __init__.py
     │     ├── algorithms.py
     │     ├── preprocess.py
-    │     ├── summarizer.py                      # Main function to generate summary result by using SUMY(1)
+    │     ├── summarizer.py                      # Main function to generate summary result by using SUMY(2)
     │     └── textsummarize.py                   # Pass summary result service for web 
     ├── tests 
-    │     ├───── ROUGE_result                    # Create measure scores by pyrouge(2)
+    │     ├───── ROUGE_result                    # Create measure scores by pyrouge(3)
     │     │         ├── LexRank.txt              # Lex Rank algorithm test log
     │     │         ├── LAS.txt                  # LAS algorithm test log 
     │     │         ├── Luhn.txt                 # Luhn algorithm test log 
@@ -57,6 +57,7 @@ Apache License
 
 Reference
 -
-*  (1) Simple library and command line utility for extracting summary from HTML pages or plain texts. The package also contains simple evaluation framework for text summaries, https://pypi.org/project/sumy/
-*  (2) pyrouge is a Python wrapper for the ROUGE summarization evaluation package. Getting ROUGE to work can require quite a bit of time. pyrouge is designed to make getting ROUGE scores easier by automatically converting your summaries into a format ROUGE understands, and automatically generating the ROUGE configuration file. https://github.com/bheinzerling/pyrouge
+*  (1) Flask is a lightweight WSGI web application framework. It is designed to make getting started quick and easy, with the ability to scale up to complex applications. It began as a simple wrapper around Werkzeug and Jinja and has become one of the most popular Python web application frameworks. https://pypi.org/project/Flask/
+*  (2) Simple library and command line utility for extracting summary from HTML pages or plain texts. The package also contains simple evaluation framework for text summaries, https://pypi.org/project/sumy/
+*  (3) pyrouge is a Python wrapper for the ROUGE summarization evaluation package. Getting ROUGE to work can require quite a bit of time. pyrouge is designed to make getting ROUGE scores easier by automatically converting your summaries into a format ROUGE understands, and automatically generating the ROUGE configuration file. https://pypi.org/project/pyrouge/
 
