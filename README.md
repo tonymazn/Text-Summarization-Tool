@@ -15,15 +15,15 @@ System structure
     │          ├── templates
     │          │     └── index.html
     │          ├── __init__.py
-    │          └── webserver.py                  # Flask(1) entrance point
+    │          └── webserver.py                  # Flask 1.0.2(1) entrance point
     ├── core
     │     ├── __init__.py
     │     ├── algorithms.py
     │     ├── preprocess.py
-    │     ├── summarizer.py                      # Main function to generate summary result by using SUMY(2)
+    │     ├── summarizer.py                      # Main function to generate summary result by using SUMY 0.7.0(2)
     │     └── textsummarize.py                   # Pass summary result service for web 
     ├── tests 
-    │     ├───── ROUGE_result                    # Create measure scores by pyrouge(3)
+    │     ├───── ROUGE_result                    # Create measure scores by pyrouge 0.1.3(3)
     │     │         ├── LexRank.txt              # Lex Rank algorithm test log
     │     │         ├── LAS.txt                  # LAS algorithm test log 
     │     │         ├── Luhn.txt                 # Luhn algorithm test log 
