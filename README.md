@@ -20,10 +20,10 @@ System structure
     │     ├── __init__.py
     │     ├── algorithms.py
     │     ├── preprocess.py
-    │     ├── summarizer.py                      # Main function to generate summary result by using [SUMY(1)](https://pypi.org/project/sumy/)
+    │     ├── summarizer.py                      # Main function to generate summary result by using SUMY(1)
     │     └── textsummarize.py                   # Pass summary result service for web 
     ├── tests 
-    │     ├───── ROUGE_result                    # Create measure scores by [pyrouge(2)](https://github.com/bheinzerling/pyrouge)
+    │     ├───── ROUGE_result                    # Create measure scores by pyrouge(2)
     │     │         ├── LexRank.txt              # Lex Rank algorithm test log
     │     │         ├── LAS.txt                  # LAS algorithm test log 
     │     │         ├── Luhn.txt                 # Luhn algorithm test log 
