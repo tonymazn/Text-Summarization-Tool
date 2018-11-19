@@ -51,6 +51,10 @@ Version
 -
 0.0.1 
 
+License
+-
+Apache License
+
 Reference
 -
 (1) Simple library and command line utility for extracting summary from HTML pages or plain texts. The package also contains simple evaluation framework for text summaries, https://pypi.org/project/sumy/
