@@ -16,7 +16,10 @@ setup(
     download_url = 'https://github.com/tonymazn/cs410/releases',
     keywords = ['text', 'nlp', 'summarization', "NLP","automatic summarization","keywords", "summary", "textrank", "pagerank","natural language processing",],
     install_requires = [
-        'scipy >= 0.19'
+        'scipy >= 0.19',
+        'flask>=1.0.2',
+        'sumy>=0.7.0',
+        'pyrouge>=0.1.3'
     ],
     python_requires = '>=3.4',
     test_suite = "unittest"
