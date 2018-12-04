@@ -51,9 +51,17 @@ Version
 -
 0.0.1 
 
+Team Member
+-
+Zhouning Ma
+
 License
 -
 Apache License
+
+Test Environment
+-
+http://mcsds.canadacentral.cloudapp.azure.com:5000
 
 Reference
 -
