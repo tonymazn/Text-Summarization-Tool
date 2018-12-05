@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+from bs4 import BeautifulSoup
 from .preprocess import get_parser
 from .algorithms import algorithms
 from sumy.summarizers.lex_rank import LexRankSummarizer
@@ -29,7 +30,9 @@ def get_algorithm(algorithm_name):
 
 
 def get_summary_result(text, count, algorithm_name):
-    parser = get_parser(text)
+    soup = BeautifulSoup(text, "html.parser")
+    cleanText = soup.get_text(strip=True)
+    parser = get_parser(cleanText)
     summarizer = get_algorithm(algorithm_name)
     return summarizer(parser.document, count)  
 

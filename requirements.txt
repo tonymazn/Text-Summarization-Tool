@@ -2,3 +2,4 @@ scipy>=0.19
 flask
 sumy
 pyrouge
+bs4
