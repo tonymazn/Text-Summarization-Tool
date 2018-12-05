@@ -20,7 +20,7 @@ System structure
     │     ├── __init__.py
     │     ├── algorithms.py
     │     ├── preprocess.py
-    │     ├── summarizer.py                      # Main function to generate summary result by using bs4(2) and SUMY 0.7.0(3)
+    │     ├── summarizer.py                      # Main function to generate summary result by using bs4(2) and SUMY(3)
     │     └── textsummarize.py                   # Pass summary result service for web 
     ├── tests 
     │     ├───── ROUGE_result                    # Create measure scores by pyrouge 0.1.3(4)
@@ -66,7 +66,7 @@ http://mcsds.canadacentral.cloudapp.azure.com:5000
 Reference
 -
 *  (1) Flask is a lightweight WSGI web application framework. It is designed to make getting started quick and easy, with the ability to scale up to complex applications. It began as a simple wrapper around Werkzeug and Jinja and has become one of the most popular Python web application frameworks. https://pypi.org/project/Flask/
-*  (2) Beautiful Soup is a Python library for pulling data out of HTML and XML files. It works with your favorite parser to provide idiomatic ways of navigating, searching, and modifying the parse tree. It commonly saves programmers hours or days of work.https://www.crummy.com/software/BeautifulSoup/
-*  (3) Simple library and command line utility for extracting summary from HTML pages or plain texts. The package also contains simple evaluation framework for text summaries, https://pypi.org/project/sumy/
+*  (2) Beautiful Soup is a Python library for pulling data out of HTML and XML files. It works with your favorite parser to provide idiomatic ways of navigating, searching, and modifying the parse tree. It commonly saves programmers hours or days of work. https://www.crummy.com/software/BeautifulSoup/
+*  (3) Simple library and command line utility for extracting summary from HTML pages or plain texts. The package also contains simple evaluation framework for text summaries. https://pypi.org/project/sumy/
 *  (4) pyrouge is a Python wrapper for the ROUGE summarization evaluation package. Getting ROUGE to work can require quite a bit of time. pyrouge is designed to make getting ROUGE scores easier by automatically converting your summaries into a format ROUGE understands, and automatically generating the ROUGE configuration file. https://pypi.org/project/pyrouge/
 
