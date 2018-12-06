@@ -46,6 +46,10 @@ Usage Examples
 -
 ```
 python -m web.webserver
+
+Open web browser and type the following URL
+http://localhost:5000
+
 ```
 Version
 -
