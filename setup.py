@@ -20,7 +20,7 @@ setup(
         'flask>=1.0.2',
         'sumy>=0.7.0',
         'pyrouge>=0.1.3',
-        'bs4>=4.4.0'
+        'bs4'
     ],
     python_requires = '>=3.4',
     test_suite = "unittest"
