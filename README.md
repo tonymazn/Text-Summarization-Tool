@@ -45,10 +45,11 @@ System structure
 Usage Examples
 -
 ```
-python -m web.webserver
+Running local Flask web server:
+    python -m web.webserver
 
-Open web browser and type the following URL
-http://localhost:5000
+Open web browser and type the following URL:
+    http://localhost:5000
 
 ```
 Version
