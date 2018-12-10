@@ -40,7 +40,9 @@ System structure
     └─ setup.py
 
 
-
+User Manual
+-
+https://github.com/tonymazn/cs410/blob/master/User%20Manual.pdf
 
 Usage Examples
 -
