@@ -35,7 +35,8 @@ System structure
     │     ├── settting.ini 
     │     └── utils.py
     ├─ README.md
-    ├─ requirements.txt
+	├─ User Manual.pdf                           # User Manual
+	├─ requirements.txt
     ├─ setup.cfg
     └─ setup.py
 
