@@ -1,7 +1,15 @@
 ﻿CS410 Final Project - Text Summarization Tool
 -
 This tool is a Python base tool demonstrate EXTRACTIVE SUMMARIZATION by couple algorithms(such as LexRank, Luhn, LSA, TextRank). The input is plain text, and output is the summary text. Getting the tool to work is simple, download/clone the package, and go to the cs410-master folder and run the following command:
+
+
 ```
+Step 1
+python
+>>>import nltk
+>>>nltk.download()                              # install all the packages
+
+Step 2
 python setup.py install
 ```
 System structure
@@ -36,16 +44,15 @@ System structure
     │     └── utils.py
     ├─ README.md
 	├─ User Manual.pdf                           # User Manual
-    ├─ requirements.txt
+	├─ requirements.txt
     ├─ setup.cfg
     └─ setup.py
-
 
 
 User Manual
 -
 https://github.com/tonymazn/cs410/blob/master/User%20Manual.pdf
-	
+
 Usage Examples
 -
 ```
@@ -68,9 +75,14 @@ License
 -
 Apache License
 
-Test Environment
+Test Environment 1
 -
 http://mcsds.canadacentral.cloudapp.azure.com:5000
+
+
+Test Environment 2
+-
+http://35.185.8.234:5000/
 
 Reference
 -
@@ -78,4 +90,5 @@ Reference
 *  (2) Beautiful Soup is a Python library for pulling data out of HTML and XML files. It works with your favorite parser to provide idiomatic ways of navigating, searching, and modifying the parse tree. It commonly saves programmers hours or days of work. https://www.crummy.com/software/BeautifulSoup/
 *  (3) Simple library and command line utility for extracting summary from HTML pages or plain texts. The package also contains simple evaluation framework for text summaries. https://pypi.org/project/sumy/
 *  (4) pyrouge is a Python wrapper for the ROUGE summarization evaluation package. Getting ROUGE to work can require quite a bit of time. pyrouge is designed to make getting ROUGE scores easier by automatically converting your summaries into a format ROUGE understands, and automatically generating the ROUGE configuration file. https://pypi.org/project/pyrouge/
+
 
