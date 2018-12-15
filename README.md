@@ -1,13 +1,15 @@
 CS410 Final Project - Text Summarization Tool
 -
 This tool is a Python base tool demonstrate EXTRACTIVE SUMMARIZATION by couple algorithms(such as LexRank, Luhn, LSA, TextRank). The input is plain text, and output is the summary text. Getting the tool to work is simple, download/clone the package, and go to the cs410-master folder and run the following command:
+
+
+```
 Step 1
 python
 >>>import nltk
 >>>nltk.download()                              # install all the packages
 
 Step 2
-```
 python setup.py install
 ```
 System structure
