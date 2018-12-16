@@ -16,6 +16,17 @@ python
 Step 2
 python setup.py install
 ```
+
+Start
+-
+```
+Running local Flask web server:
+    python -m web.webserver
+
+Open web browser and type the following URL:
+    http://localhost:5000
+```
+	
 System structure
 -
 
@@ -57,16 +68,6 @@ User Manual
 -
 https://github.com/tonymazn/cs410/blob/master/User%20Manual.pdf
 
-Usage Examples
--
-```
-Running local Flask web server:
-    python -m web.webserver
-
-Open web browser and type the following URL:
-    http://localhost:5000
-
-```
 Version
 -
 0.0.1 
