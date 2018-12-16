@@ -68,6 +68,10 @@ User Manual
 -
 https://github.com/tonymazn/cs410/blob/master/User%20Manual.pdf
 
+Techniques Review
+-
+https://github.com/tonymazn/Text-Summarization-Techniques-Review/blob/master/Text%20Summarization%20Techniques%20Review.pdf
+
 Version
 -
 0.0.1 
