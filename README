@@ -1,6 +1,10 @@
 ﻿CS410 Final Project - Text Summarization Tool
 -
-This project is a Python base tool to demonstrate TEXT SUMMARIZATION by couple algorithms(such as LexRank, Luhn, LSA, TextRank). The input is plain text, and output is the summary text. Getting the tool to work is simple, download/clone the package, and go to the cs410-master folder and then run the following command:
+This project is a Python base tool to demonstrate TEXT SUMMARIZATION by couple algorithms(such as LexRank, Luhn, LSA, TextRank). The input is plain text, and output is the summary text. 
+
+Installation
+-
+Getting the tool to work is simple, download/clone the package, and go to the cs410-master folder and then run the following command:
 
 
 ```
