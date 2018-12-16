@@ -17,7 +17,7 @@ Step 2
 python setup.py install
 ```
 
-Start
+Start Instance
 -
 ```
 Running local Flask web server:

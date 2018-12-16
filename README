@@ -11,11 +11,22 @@ Getting the tool to work is simple, download/clone the package, and go to the cs
 Step 1
 python
 >>>import nltk                                  # nltk(1) is Natural Language Toolkit
->>>nltk.download()                              # Install all the packages
+>>>nltk.download()                              # install all the packages
 
 Step 2
 python setup.py install
 ```
+
+Start Instance
+-
+```
+Running local Flask web server:
+    python -m web.webserver
+
+Open web browser and type the following URL:
+    http://localhost:5000
+```
+	
 System structure
 -
 
@@ -57,16 +68,6 @@ User Manual
 -
 https://github.com/tonymazn/cs410/blob/master/User%20Manual.pdf
 
-Usage Examples
--
-```
-Running local Flask web server:
-    python -m web.webserver
-
-Open web browser and type the following URL:
-    http://localhost:5000
-
-```
 Version
 -
 0.0.1 
